@@ -451,3 +451,25 @@ f）有效的利用了宽带的闲置时间。减少的PC的损耗。
 4. 目前，咱们校园网IPv6，现在是没有防火墙的。所以说使用原生酸酸也无大碍，我们只是希望用IPv6科学上网+免流，酸酸就够用了，IPv4可以不用。但是，我们也要留一个后手。
 
 希望我们的文字和经验能够帮助到有需要的人，如果你认为对你有帮助或者启发了你的思路，请多多点赞加关注啦！欢迎加入我们一起讨论各类黑科技。
+
+
+```
+酸酸：ss
+酸酸乳：ssr
+微兔软：V2ray
+
+
+执行命令1：cd tmp
+                   wget  http://192.168.99.123/newifi-d2-jail-break.ko
+执行命令2：insmod newifi-d2-jail-break.ko
+执行命令3：luci-app-ssr-pro     luci-i18n-ssr-pro-zh-cn
+执行命令4：luci-app-v2ray-pro 
+执行命令5：shadowfog
+执行命令6：wget --no-check-certificate https://raw.githubusercontent.com/teddysun/shadowsocks_install/master/shadowsocks.sh
+执行命令7：chmod +x shadowsocks.sh
+执行命令8:  ./shadowsocks.sh 2>&1 | tee shadowsocks.log
+执行命令9：nano /etc/shadowsocks.json 
+执行命令10: ssserver -c /etc/shadowsocks.json -d stop
+执行命令11: ssserver -c /etc/shadowsocks.json -d start
+
+```
