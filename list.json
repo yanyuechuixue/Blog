@@ -1,5 +1,10 @@
 [
     {
+        "title": "利用Google GCE为教育网搭建6to4服务",
+        "time": "2019-07-02",
+        "file": "posts/GoogleGCE6to4.md"
+    },
+    {
         "title": "自定义 Workers 绑定域名",
         "time": "2019-07-02",
         "file": "posts/workers-custom-domain.md"
