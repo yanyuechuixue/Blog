@@ -1,5 +1,10 @@
 [
     {
+        "title": "从Oracle的免费机器中移除占用cpu很高的程序。",
+        "time": "2019-10-12",
+        "file": "posts/remove-oracle-cloud-agent.md"
+    },
+    {
         "title": "在Windows 10中访问玩客云Samba共享",
         "time": "2019-07-29",
         "file": "posts/Windows10_onecloud.md"
