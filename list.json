@@ -1,6 +1,11 @@
 [
     {
-        "title": "从Oracle的免费机器中移除占用cpu很高的程序。",
+        "title": "WSL2: 参考的对象类型不支持尝试的操作",
+        "time": "2019-10-15",
+        "file": "posts/wsl2_winsock.md"
+    },
+    {
+        "title": "从Oracle的免费机器中移除占用cpu很高的程序",
         "time": "2019-10-12",
         "file": "posts/remove-oracle-cloud-agent.md"
     },
