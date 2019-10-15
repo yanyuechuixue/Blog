@@ -4,7 +4,7 @@
 
 
 
-很遗憾目前(20191015)还没有办法同时使用 proxifier 安装版 和 wsl2. 但可以使用 proxifier 便携版.
+很遗憾目前(20191015)还没有办法同时使用 proxifier 安装版 和 wsl2. **但可以使用 proxifier 便携版**.
 
 
 
