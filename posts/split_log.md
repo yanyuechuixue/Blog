@@ -1,4 +1,4 @@
-# 切割文本文件（例如log）的方法。
+# 切割大文本文件的方法。
 
 工作中发现生成了 36Gb 的 log 文件。显然不可能全部传到本地来，所以需要截取一部分（例如100M）传到本地。
 
@@ -9,7 +9,12 @@
 head 命令是用来获取文本文件的开始n行。
 
 Sample
-`head -10000 java.log > javaHead.log`
+
+```bash
+head -10000 java.log > javaHead.log
+```
+
+
 
 
 
@@ -18,7 +23,12 @@ Sample
 tail 命令是用来获取文本最后行。
 
 Sample
-`tail -10000 java.log > javaTail.log`
+
+```bash
+tail -10000 java.log > javaTail.log
+```
+
+
 
 
 
@@ -27,7 +37,12 @@ Sample
 sed 命令可以从第N行截取到第M行。（ N > 0 , M < FileLineNumber ）
 
 Sample
-`sed -n '1,50000p' java.log > javaRange.log`
+
+```bash
+sed -n '1,50000p' java.log > javaRange.log
+```
+
+
 
 
 
@@ -35,11 +50,17 @@ Sample
 
 每300行切分生成一个心文件，–verbose 显示切分进度
 
-`split -l 300 java.txt javaLog --verbose`
+```bash
+split -l 300 java.txt javaLog --verbose
+```
+
+
 
 每 10M 切分成一个新的文件，–verbose 显示切分进度
 
- `split -d 10m java.txt javaLog --verbose` 
+```bash
+ split -d 10m java.txt javaLog --verbose
+```
 
 
 
