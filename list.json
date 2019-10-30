@@ -1,5 +1,10 @@
 [
     {
+        "title": "切割文本文件（例如log）的方法",
+        "time": "2019-10-30",
+        "file": "posts/split_log.md"
+    },    
+    {
         "title": "FFmpeg 常用命令",
         "time": "2019-10-18",
         "file": "posts/FFmpeg.md"
