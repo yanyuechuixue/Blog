@@ -1,5 +1,10 @@
 [
     {
+        "title": "Chrome 开启多线程下载",
+        "time": "2019-11-18",
+        "file": "posts/chrome_parallel_downloading.md"
+    },    
+    {
         "title": "整理我常用的 tmux 指令",
         "time": "2019-11-02",
         "file": "posts/tmux.md"
