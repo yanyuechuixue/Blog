@@ -1,5 +1,10 @@
 [
     {
+        "title": "Jupyter Notebook 启用 Code Prettify",
+        "time": "2019-12-03",
+        "file": "posts/CodePrettify.md"
+    },    
+    {
         "title": "Chrome 开启多线程下载",
         "time": "2019-11-18",
         "file": "posts/chrome_parallel_downloading.md"
