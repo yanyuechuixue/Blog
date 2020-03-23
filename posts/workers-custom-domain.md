@@ -45,7 +45,7 @@ vim index.js
 回到Shell，输入以下命令进行配置：
 
 ```shell
-wrangler config <你的账户邮箱> <你的 api key>
+wrangler config --api-key
 ```
 
 然后我们修改wrangler.toml，这个是项目的配置文件，里面记录了一些关于这个Worker 的选项：
