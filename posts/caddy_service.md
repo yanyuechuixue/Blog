@@ -64,10 +64,10 @@ sudo chmod 555 /var/www
 
 上面创建了三个目录，`/etc/caddy/Caddyfile` 是 Caddy 的配置文件，`/etc/ssl/caddy` 存放证书，`/var/www` 是默认的网站目录。
 
-把官方提供的脚本 [caddy.service](https://github.com/mholt/caddy/blob/master/dist/init/linux-systemd/caddy.service)下载到 `/etc/systemd/system/` 并重新加载 `systemd daemon`，让配置生效。
+把官方提供的脚本 [caddy.service](https://github.com/caddyserver/dist/raw/master/init/caddy.service)下载到 `/etc/systemd/system/` 并重新加载 `systemd daemon`，让配置生效。
 
 ```
-wget https://raw.githubusercontent.com/caddyserver/caddy/master/dist/init/linux-systemd/caddy.service
+wget https://github.com/caddyserver/dist/raw/master/init/caddy.service
 sudo cp caddy.service /etc/systemd/system/
 sudo chown root:root /etc/systemd/system/caddy.service
 sudo chmod 644 /etc/systemd/system/caddy.service
