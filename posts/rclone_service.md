@@ -1,4 +1,4 @@
-### rclone 开机自动挂载
+### rclone 开机自动挂载 (rclone service)
 
 ```bash
 yum install -y fuse
