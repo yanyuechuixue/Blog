@@ -1,5 +1,10 @@
 [
     {
+        "title": "编写可靠 bash 脚本的一些技巧",
+        "time": "2020-04-10",
+        "file": "posts/bash.md"
+    },
+    {
         "title": "一键领取 Steam 免费游戏",
         "time": "2020-04-04",
         "file": "posts/steam_free.md"
