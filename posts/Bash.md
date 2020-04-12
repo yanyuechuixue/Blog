@@ -118,6 +118,3 @@ cat out2 | cmd3 > out3.dat
 ```text
 cmd1 | tee out1.dat | cmd2 | tee out2.dat | cmd3 > out3.dat
 ```
-
-更多干货，尽在 [腾讯技术](https://link.zhihu.com/?target=https%3A//space.bilibili.com/451913461)
-
