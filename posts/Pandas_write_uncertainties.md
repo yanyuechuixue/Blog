@@ -8,5 +8,5 @@ append_dict={}
 append_dict['Name'] = "Name"
 append_dict[par_] = '$' + format(median, '0.2f') + "^{+" + format(plus, '0.2f') + "}" + "_{-" + format(minus, '0.2f') + "}"  + '$'
 mass1_summary_data=mass1_summary_data.append(append_dict,ignore_index=True)
-print(mass1_summary_data.to_latex(escape=False,index=False))
+print(mass1_summary_data.to_latex(escape=False,index=False,na_rep="\\backslash"))
 ```
