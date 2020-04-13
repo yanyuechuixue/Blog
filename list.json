@@ -1,5 +1,10 @@
 [
     {
+        "title": "Pandas 输入含有非对称误差的字符串以及输出成 LaTex 表格",
+        "time": "2020-04-13",
+        "file": "posts/Pandas_write_uncertainties.md"
+    },
+    {
         "title": "编写可靠 bash 脚本的一些技巧",
         "time": "2020-04-10",
         "file": "posts/Bash.md"
